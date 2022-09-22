@@ -8,6 +8,7 @@ public class Excepciones {
     public static void main(String[] args) throws IOException {
         BufferedReader leer=new BufferedReader(new InputStreamReader(System.in));
         float a, b, r;
+        
         try{
             System.out.println("Ingrese un valor: ");
             a = Float.parseFloat(leer.readLine());
