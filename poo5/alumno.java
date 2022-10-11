@@ -1,4 +1,4 @@
-package poo5;
+package poo4;
 
 public class alumno {
     private String codigo;
@@ -7,6 +7,10 @@ public class alumno {
     private int edad;
 
     public alumno() {
+    }
+    
+    public alumno(String codigo){
+        this.codigo = codigo;
     }
 
     public alumno(String codigo, String nombre, String apellido, int edad) {
@@ -40,11 +44,16 @@ public class alumno {
         this.apellido = apellido;
     }
 
-    public int getEdad() {
+    public int getEdad(){
         return edad;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(int edad){
         this.edad = edad;
+    }
+
+    public String toString(){
+
+      return "El codigo es: "+codigo;
     }
 }
