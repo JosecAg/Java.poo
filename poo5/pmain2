@@ -1,0 +1,9 @@
+package poo4;
+
+public class pmain2 {
+
+    public static void main(String[] args) {
+        alumno a1 = new alumno("2222"+"\n","Bababoi"+"\n","Dahmer"+"\n",32);
+        System.out.println("" + a1.toString());
+    }
+}
