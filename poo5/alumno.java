@@ -54,6 +54,6 @@ public class alumno {
 
     public String toString(){
 
-      return "El codigo es: "+codigo;
+      return "Datos: "+codigo+nombre+apellido+edad;
     }
 }
